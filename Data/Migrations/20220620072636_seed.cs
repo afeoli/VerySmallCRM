@@ -14,7 +14,7 @@ namespace VerySmallCRM.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CustomerName = table.Column<string>(nullable: true),
                     CustomerEmail = table.Column<string>(nullable: true),
-                    CustomerPhone = table.Column<int>(nullable: false),
+                    CustomerPhone = table.Column<string>(nullable: false),
                     CustomerNotes = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

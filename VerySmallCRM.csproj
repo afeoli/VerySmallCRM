@@ -5,6 +5,11 @@
     <UserSecretsId>aspnet-ExampleWebApp-96712076-8D3C-4690-A5FA-E4ABFF7BA8B4</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20220620093921_fixed.cs" />
+    <Compile Remove="Data\Migrations\20220620093921_fixed.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.1" />
